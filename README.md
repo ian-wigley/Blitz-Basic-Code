@@ -1,3 +1,3 @@
 # Blitz Basic Code
 
-TO-DO - Add some stuff here !
+Various bits of code written with Blitz Basic in the early 2000's.
