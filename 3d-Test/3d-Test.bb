@@ -2,7 +2,7 @@ Global x=150
 Global y=3
 Global z=250
 
-Graphics3D 800,600,16,2 ;1
+Graphics3D 800,600,16,2
 SetBuffer BackBuffer() 
 camera=CreateCamera() 
 light=CreateLight() 
@@ -23,9 +23,8 @@ PositionEntity alien,x,y,z
 PositionEntity camera, x, EntityY (alien) + 4.85, 220
 EntityParent camera, alien
 
-
-
 Animate alien,1
+
 While Not KeyDown(1) 
 
  If KeyDown( 205 )=True Then 
@@ -61,5 +60,6 @@ Text 220,000,Mid$("3d Test - written in 2007",True)
 ;Text 250,040,Mid$("Y="+y,True)
 ;Text 300,040,Mid$("Z="+z,True)
 Flip
-Wend 
+Wend
+
 End 
